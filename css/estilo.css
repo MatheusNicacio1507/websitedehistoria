@@ -1,0 +1,207 @@
+@charset "UTF-8";
+
+@import url(http://fonts.googleapis.com/css?family=Titillium+Web);
+
+nav#menu {
+    display: block; /* transformar tudo o que é menu em bloco*/
+}
+
+nav#menu ul{
+    list-style: none; /* remover marcadores da lista*/
+    text-transform: uppercase; /* converter para maiusculas*/
+    position: absolute; /* para que o menu possa ser colocado no topo, é preciso virar absoluto*/
+    top: -3px; /* posicionado ao topo. valor negativo para empurrar alem da borda*/
+    right: 115px; /* posicionado a direita*/
+}
+
+ol{
+    background-color: rgba(170, 108, 51, 0.5);
+    box-shadow: 0px 0px 10px rgba(0,0,0, 0.5);
+    padding: 50px 50px 50px 50px;
+    text-transform: uppercase;
+}
+
+ol li{
+    color: rgba(113, 67, 31);
+    margin: 50px;
+}
+
+nav#menu li{
+    display: inline-block; /* colocar os itens lado a lado*/
+    background-color: rgba(113, 67, 31); /* cor de  fundo */
+    padding: 10px; /* aumentar o espaçamento interno caixa cinza*/
+    margin: 2px; /* aumentar o espaçamento externo caixa cinza*/
+    transition: background-color 0.5s; /* tempo da transição do background color*/
+}
+
+/* hover para efeito do mouse ao passar sobre o li*/
+nav#menu li:hover {
+    background-color: rgba(170, 108, 51); /*cinza escuro*/
+}
+
+/* a é o link dentro da nav menu*/
+nav#menu a{
+    color: #fff; /*preto*/
+    text-decoration: none;
+}
+/* ao passar o mouse sobre o link (tag a) */
+nav#menu a:hover{
+    color: #fff; /* branco*/
+    text-decoration: underline;/*sublinhado*/
+    }
+
+ul#home a{
+    color: rgba(113, 67, 31);
+    text-decoration: none;
+}
+
+a#cu{
+    color: rgba(113, 67, 31);
+    text-decoration: none;
+}
+
+body{
+    background: url("../imagens/Roma-cidade.jpeg");
+}
+
+div#interface{
+    padding: 10px;
+    background-color: rgba(241, 226, 203);
+    margin: -20px 100px -20px 100px;
+    box-shadow: 0px 0px 50px rgba(0,0,0, 0.5);
+}
+
+header#cabecalho{
+    padding: 10px;
+    background-color: rgba(241, 226, 203);
+}
+
+header img#icone{
+    position: absolute;
+    width: 12%;
+    right: 110px;
+    top: 53px;
+}
+
+header#cabecalho h1{
+   color: rgba(113, 67, 31);
+}
+header#cabecalho h2{
+    color: rgba(170, 108, 51);
+}
+
+img#mapa-roma-antiga1{
+    position: relative;
+    height: 500px;
+    width: 1000;
+    margin: 10px 25px 10px 25px;
+    padding: 25px;
+    border: 8px 5px 8px 5px solid; /* solid hidden dotted dashed double groove ridge insert outset*/
+    box-shadow: 1px 1px 4px black; /* horizontal vertical difusão cor da sombra*/
+    background-color: rgba(113, 67, 31);
+}
+
+img#mapa-roma-antiga2{
+    position: relative;
+    height: 500px;
+    width: 1000;
+    margin: 10px 25px 10px 1px;
+    padding: 25px;
+    border: 8px 5px 8px 5px solid; /* solid hidden dotted dashed double groove ridge insert outset*/
+    box-shadow: 1px 1px 4px black; /* horizontal vertical difusão cor da sombra*/
+    background-color: rgba(113, 67, 31);
+}
+
+img#mapa-roma-antiga3{
+    position: relative;
+    height: 500px;
+    margin: 10px 25px 10px 100px;
+    padding: 25px;
+    border: 8px 5px 8px 5px solid; /* solid hidden dotted dashed double groove ridge insert outset*/
+    box-shadow: 1px 1px 4px black; /* horizontal vertical difusão cor da sombra*/
+    background-color: rgba(113, 67, 31);
+}
+
+img#mapa-roma-antiga{
+    position: relative;
+    height: 500px;
+    width: 90%;
+    margin: 10px 25px 10px 25px;
+    padding: 25px;
+    border: 8px 5px 8px 5px solid; /* solid hidden dotted dashed double groove ridge insert outset*/
+    box-shadow: 1px 1px 4px black; /* horizontal vertical difusão cor da sombra*/
+    background-color: rgba(113, 67, 31);
+}
+
+
+img#mapa-cultura{
+    position: relative;
+    height: 500px;
+    width: 1000px;
+    margin: 10px 25px 10px 25px;
+    padding: 25px;
+    border: 8px 5px 8px 5px solid; /* solid hidden dotted dashed double groove ridge insert outset*/
+    box-shadow: 1px 1px 4px black; /* horizontal vertical difusão cor da sombra*/
+    background-color: rgba(113, 67, 31);
+}
+
+img#mapa-economia{
+     position: relative;
+    height: 500px;
+    width: 1000px;
+    margin: 10px 25px 10px 25px;
+    padding: 25px;
+    border: 8px 5px 8px 5px solid; /* solid hidden dotted dashed double groove ridge insert outset*/
+    box-shadow: 1px 1px 4px black; /* horizontal vertical difusão cor da sombra*/
+    background-color: rgba(113, 67, 31);
+}
+
+img#mapa-politica{
+     position: relative;
+    height: 500px;
+    width: 1000px;
+    margin: 10px 25px 10px 25px;
+    padding: 25px;
+    border: 8px 5px 8px 5px solid; /* solid hidden dotted dashed double groove ridge insert outset*/
+    box-shadow: 1px 1px 4px black; /* horizontal vertical difusão cor da sombra*/
+    background-color: rgba(113, 67, 31);
+}
+
+img#mapa-sociedade{
+    position: relative;
+    height: 500px;
+    width: 1000px;
+    margin: 10px 25px 10px 25px;
+    padding: 25px;
+    border: 8px 5px 8px 5px solid; /* solid hidden dotted dashed double groove ridge insert outset*/
+    box-shadow: 1px 1px 4px black; /* horizontal vertical difusão cor da sombra*/
+    background-color: rgba(113, 67, 31);
+}
+
+footer#rodape {
+    clear: both;
+    border-top: 1px solid rgba(113, 67, 31);
+}
+
+footer#rodape p, h4, h3 {
+    text-align: center;
+}
+
+footer#rodape h3{
+    margin: -15px;
+}
+
+footer#rodape ul{
+    text-align: center
+}
+
+footer#rodape li{
+    display: inline-block;
+    margin: 3px;
+}
+
+
+
+
+
+
